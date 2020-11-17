@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    width: 70vw;
+    /* height: 45vh; */
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 2vh auto 0 auto;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+
+}
+
+span {
+    font-size: xx-large;
+    font-family: monospace;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+}
+
+button {
+    margin: 10px;
+
+}
+
+button:focus {
+    outline: none;
+}
+
+
+#editText {
+    /* outline: none; */
+    resize: none;
+    width: 90%;
+    height: 90%;
+    display: block;
+    overflow: auto;
+    outline: none;
+}
+
+
+.textEdit {
+    flex-direction: column;
+    width: 70vw;
+    height: 40vh;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: none;
+    padding: 20px;
+}
+
+.style {
+
+    width: 70%;
+    height: 70%;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 50px auto;
+    display: none;
+    align-items: center;
+    padding: 20px
+}
+
+.styleLeft {
+    width: 50%;
+}
+
+.styleRight {
+    width: 50%;
+}
+
+textarea {
+    margin: 50px auto;
+}
+
+.colorText {
+    box-sizing: border-box;
+    outline: black 2px solid;
+    height: 150px;
+    width: 150px;
+    background: #000;
+    margin: 0 auto;
+    display: none;
+    flex-wrap: wrap;
+}
+
+.bgColor {
+    box-sizing: border-box;
+    outline: black 2px solid;
+    height: 150px;
+    width: 150px;
+    background: #000;
+    margin: 0 auto;
+    display: none;
+    flex-wrap: wrap;
+}
+
+.color {
+    height: 50px;
+    width: 50px;
+}
+
+.ColorButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+.add {
+    height: 60vh;
+    width: 70vw;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 5vh auto;
+    display: none;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.addCheckContainer {
+    margin-left: 20px;
+
+}
+
+
+.table {
+    display: none;
+    margin-top: 10%;
+}
+
+.list {
+    display: none;
+    margin-top: 10%;
+}
